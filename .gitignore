@@ -9,3 +9,27 @@ images/
 *.png
 *.mp4
 
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Traffic data and recordings
+*.csv
+*.mp4
+*.jpg
+*.jpeg
+*.png
+results/
+recordings/
+tracking_frames/
+
+# Downloaded ML model weights
+*.pt
+*.onnx
+
+# Local calibration data
+speed_reference.json
+lane_calibration.json
